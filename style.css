@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+    position: relative;
+    margin-bottom: 10px;
+    height: 700px;
+}
+
+header img, 
+header h1 {
+    position: absolute;
+}
+
+header img {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+header h1 {
+    z-index: 2;
+    left: 25%;
+    width: 50%;
+    margin: 120px auto;
+    background-color: rgb(91, 91, 91);
+    text-align: center;
+    padding: 5px;
+    font-size: 42px;
+    font-family: "Barriecito";
+    color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: lightgray;
+    z-index: 3;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(45, 42, 42);
+}
+
+.purpose {
+    margin: 40px auto;
+    width: 65%;
+}
+
+.purpose h2 {
+    text-align: center;
+    font-family: "Elms Sans";
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.purpose p {
+     font-family: "Caveat Brush";
+     margin-top: 10px;
+     font-size: 20px;
+}
+
+footer {
+    background-color: rgb(91, 91, 91);
+    padding: 80px;
+    text-align: center;
+    color: lightgray;
+}
+
+.back-to-top {
+    background-color: lightgrey;
+    width: 100px;
+    margin: 10px auto;
+    padding: 12px;
+    font-family: 'Segoe UI';
+}
+
+.back-to-top a {
+    color: rgb(91, 91, 91);
+    text-decoration: none;
+}
+
+footer p {
+    font-family: 'Arial';
+    font-size: small;
+    margin-top: 20px;
+}
+
+ .blog-cards .blog-cards-article article img {
+    width: 100%;
+    height: 65%;
+}
+
+.blog-cards-article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.blog-cards-article article {
+    flex: 0 0 350px;
+    font-family: "IM Fell French Canon";
+    box-shadow: 4px 4px 20px black;
+    height: 525px;
+}
+
+.blog-cards h2 {
+    text-align: center;
+    font-family: "Elms Sans";
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.blog-cards-article h3,
+.blog-cards-article p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .icons i {
+    font-size: 22px;
+    margin-top: 20px;
+}

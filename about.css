@@ -1,0 +1,177 @@
+body {
+
+    padding: 0 5%;
+
+}
+
+ 
+
+header {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    margin: 30px auto;
+
+}
+
+ 
+
+nav {
+
+    font-family: "Segoe UI";
+
+    padding-top: 20px;
+
+}
+
+ 
+
+nav a {
+
+    text-transform: uppercase;
+
+    color: rgb(68, 63, 63);
+
+    margin: 10px;
+
+    text-decoration: none;
+
+}
+
+ 
+
+.name {
+
+    font-family: 'Permanent Marker';
+
+    font-size: 40px;
+
+    width: 100px;
+
+}
+
+ 
+
+.subscribe {
+
+    background-color: black;
+
+    color: white;
+
+    text-transform: uppercase;
+
+    padding: 10px 15px;
+
+}
+
+ 
+
+.me {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    gap: 40px;
+
+    padding: 0 10%;
+
+    justify-content: center;
+
+}
+
+ 
+
+.intro {
+
+    width: 60%;
+
+}
+
+ 
+
+.intro h1 {
+
+    font-family: "Shadows into Light";
+
+    font-style: italic;
+
+    font-size: 22px;
+
+}
+
+ 
+
+.intro p {
+
+    font-family: 'Schoolbell';
+
+    font-size: 22px;
+
+}
+
+ 
+
+.image {
+
+    width: 40%;
+
+}
+
+ 
+
+img {
+
+    width: 100%;
+
+    max-width: 300px;
+
+}
+
+ 
+
+.intro blockquote {
+
+    font-family: 'IBM Plex Mono';
+
+    font-size: 15px;
+
+    border-left: 5px solid grey;
+
+    background-color: rgb(231, 230, 235);
+
+    margin-left: 25px;
+
+    padding: 10px;
+
+    border-radius: 35px;
+
+}
+
+ 
+
+footer {
+
+    font-family: 'Segoe UI';
+
+    text-align: center;
+
+    border-top: 2px solid black;
+
+    border-bottom: 2px solid black;
+
+    padding: 40px;
+
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+
+}
+
+ 
